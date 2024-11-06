@@ -51,10 +51,10 @@ body {
   line-height: 145%;
   font-weight: 600;
 }
-.paragraph {
+.text-sm {
   font-size: 0.875rem;
-  line-height: 160%;
-  font-weight: 4 00;
+  line-height: 145%;
+  font-weight: 600;
 }
 
 img {
@@ -87,6 +87,7 @@ a:hover {
 
 main {
   margin-top: 2.5rem;
+  gap: 5rem;
 }
 
 .content-tag {
