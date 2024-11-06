@@ -88,3 +88,16 @@ a:hover {
 main {
   margin-top: 2.5rem;
 }
+
+.content-tag {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--brand-color-dark);
+  color: var(--text-color-primary);
+  border-radius: 0.25rem;
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 16px rgba(2, 6, 63, 0.251);
+}

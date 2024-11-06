@@ -2,6 +2,27 @@
   img {
     height: 100%;
     object-fit: cover;
+  }
+
+  .card {
+    position: relative;
     border-radius: 0.25rem;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: linear-gradient(180deg, transparent 0%, #020617 100%);
+      inset: 0;
+      top: 50%;
+    }
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 1.5rem;
+
+      h1 {
+        margin-top: 0.5rem;
+      }
+    }
   }
 }
