@@ -29,20 +29,13 @@ body {
   color: var(--text-color-primary);
 }
 
-/*   */
 .heading1 {
   font-size: 1.5rem;
   line-height: 135%;
   font-weight: 800;
 }
-
 .heading2 {
   font-size: 1rem;
-  line-height: 140%;
-  font-weight: 800;
-}
-.heading3 {
-  font-size: 0.875rem;
   line-height: 140%;
   font-weight: 800;
 }
@@ -50,6 +43,11 @@ body {
   font-size: 0.875rem;
   line-height: 145%;
   font-weight: 600;
+}
+.text-xl {
+  font-size: 0.875rem;
+  line-height: 140%;
+  font-weight: 800;
 }
 .text-sm {
   font-size: 0.875rem;
