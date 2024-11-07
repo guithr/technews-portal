@@ -54,7 +54,12 @@ body {
   line-height: 145%;
   font-weight: 600;
 }
-
+.text-sm2 {
+  font-size: 0.875rem;
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--text-color-secondary);
+}
 img {
   max-width: 100%;
   height: auto;
@@ -84,8 +89,16 @@ a:hover {
 }
 
 main {
-  margin-top: 2.5rem;
-  gap: 5rem;
+  margin-block: 2.5rem 5rem;
+  row-gap: 5rem;
+  column-gap: 2rem;
+
+  grid-template-columns: 2fr 1.25fr;
+
+  grid-template-areas:
+    "highlights highlights"
+    "weekly weekly"
+    "highlights-ia aside";
 }
 
 .content-tag {
