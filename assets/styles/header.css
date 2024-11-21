@@ -9,6 +9,12 @@
   /* Nesting css  */
   div:nth-child(2) {
     margin-inline: auto;
+
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
   }
 
   div:nth-child(3) {
@@ -21,4 +27,23 @@
   border: 1px solid var(--stroke-color);
   border-inline: none;
   justify-content: space-between;
+}
+
+@media (width <= 48em) {
+  #primary {
+    border-bottom: 1px solid var(--stroke-color);
+    & div:first-child strong {
+      display: none;
+    }
+    & div:nth-child(2) {
+      background-image: url(../images/logo-mobile.svg);
+    }
+
+    & div:last-child strong {
+      display: none;
+    }
+  }
+  #secondary {
+    display: none;
+  }
 }
