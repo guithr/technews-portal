@@ -113,3 +113,14 @@ main {
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 16px rgba(2, 6, 63, 0.251);
 }
+
+@media (width <= 48em) {
+  .container {
+    padding-inline: 1rem;
+  }
+  main {
+    grid-template-columns: 1fr;
+    row-gap: inherit;
+    column-gap: initial;
+  }
+}
