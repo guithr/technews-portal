@@ -1,0 +1,6 @@
+aside {
+  grid-area: aside;
+  @media (width <= 48em) {
+    margin-top: 2rem;
+  }
+}

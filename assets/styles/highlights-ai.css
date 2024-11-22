@@ -11,6 +11,7 @@
   }
 
   @media (width <= 48em) {
+    margin-top: 2rem;
     & > div > article {
       display: flex;
       flex-direction: row-reverse;

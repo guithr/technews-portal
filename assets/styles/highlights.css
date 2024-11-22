@@ -35,6 +35,10 @@
   @media (width <= 48em) {
     grid-auto-flow: initial;
     grid-template-columns: 1fr;
+
+    img {
+      width: 100%;
+    }
     & > div {
       grid-template-columns: 1fr;
     }

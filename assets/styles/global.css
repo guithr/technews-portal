@@ -122,5 +122,10 @@ main {
     grid-template-columns: 1fr;
     row-gap: inherit;
     column-gap: initial;
+    grid-template-areas:
+      "highlights"
+      "weekly"
+      "highlights-ia"
+      " aside";
   }
 }
